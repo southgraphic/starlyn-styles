@@ -1,0 +1,164 @@
+<td align="left"  > 
+    <h3 style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif; font-size: 42px; font-weight: 700;">
+  Starlyn Styles
+    </h3>
+  </td>
+
+      <td width="100%">
+        <td><a href="http://">Hair Care</a>
+        </td>
+        <td><a href="http://">Skincare</a>
+        </td>
+        <td>
+          <a href="http://">Bath & Body</a>
+        </td>
+
+      </td>
+
+      ---------------------
+
+      <!-- start of header row -->
+      <tr>
+        <td>
+          <!-- start of container -->
+        <table class="container" width="700" align="center" border="0" cellspacing="0" cellpadding="0">
+           <tr>
+             <td>
+               <table class="header-left" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 20px;">
+                <tr>
+                <td> 
+                  <h3 style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif; font-size: 42px; font-weight: 700; padding: 25px 0 10px;">
+                Starlyn Styles
+                  </h3>
+                </td>
+                </tr>
+               </table>
+               <table class="header-right" align="right" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 20px;">
+                 <tr>    
+                      <td>
+                        <td><a href="http://">Hair Care</a>
+                        </td>
+                        <td><a href="http://">Skincare</a>
+                        </td>
+                        <td>
+                          <a href="http://">Bath & Body</a>
+                        </td>
+                
+                      </td>
+                 </tr>
+               </table>
+             </td>
+           </tr>
+        </table>
+        <!-- end of container --> 
+      </td>
+      </tr>
+      <!-- end of the header row -->
+
+
+      ----
+
+
+       <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" width="50%">
+                <h1 style="font-weight: 600;">Starlyn Styles</h1>
+              </td>
+            </tr>
+          </table>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" width="50%">
+                <h1 style="font-weight: 600;">Starlyn Styles</h1>
+              </td>
+            </tr>
+          </table>
+
+          ------------------
+
+                      <!-- start banner row -->
+         <tr width="100%">
+           <td align="center" width="100%">
+          
+             <table border="0" cellspacing="0" cellpadding="0" align="center" style="padding: 0 0 0 100px;">
+                <tr>
+                  <td style="background-color: #ff0000;
+                  background-image: url(/img/bannerjpg);" align="center">
+                    <img src="/img/clear-bottles2.jpg" alt="transparent shampoo bottles" width="104px" height="76px" >
+                  </td>
+                </tr>
+             </table>
+           </td>
+         </tr>
+               <!-- end banner row -->
+               <!-- start shampoo deals row -->
+               <tr>
+                 <td>
+                   <table border="0" cellspacing="0" cellpadding="0">
+                     <tr>
+                       <td>
+                         <img src="/img/any-day-shampoo.jpg" alt="shampoo trio" width="244px" height="201px">
+                       </td>
+                     </tr>
+                   </table>
+                 </td>
+               </tr>
+                <!-- end shampoo deals row -->
+
+
+                -----------
+
+                <!-- start right header column -->
+              <table border="0" cellspacing="0" cellpadding="0" class="rightheader">
+                <tr>
+                  <td align="right" width="50%" style="background-color: #fff;">
+                    <table border="0" cellspacing="0" cellpadding="0" >
+                      <tr>
+                        <td>
+                          <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;font-size: 16px; font-weight: 400; text-decoration: none; color: #000; padding: 0 15px 0 10px;">Hair Care</a>
+
+                      <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;font-size: 16px; font-weight: 400; text-decoration: none; color: #000; padding: 0 15px 0 10px;">Skincare</a>
+
+                      <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;font-size: 16px; font-weight: 400 ;text-decoration: none; color: #000; padding: 0 15px 0 10px;">Bath & Body</a>
+                        </td>
+                      </tr>
+                      
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- end right header column -->
+             </td>
+          </tr>
+          <!-- start of carousel row -->
+         <tr>
+          <td>
+            <img src="/img/curly-wavy-sunlight.jpg" width="348px" height="215px" alt="curly wavy style in sunlight">
+          </td>
+
+          <td>
+            <img src="/img/red-auburn-waves.jpg" width="348px" height="215px" alt="curly wavy style in sunlight">
+          </td>
+         </tr> 
+          <!-- end of carousel row -->
+           <!-- start of shampoo deals row -->
+          <tr style="background: lightblue;" width="100%">
+            <td width="100%" style="background: magenta;">
+              <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aperiam asperiores explicabo delectus itaque modi, reiciendis amet in. Consequatur reprehenderit qui in provident beatae, porro non est cum aperiam. Pariatur libero obcaecati quisquam accusamus repellat et, nulla odio ut veniam, alias illum, odit aperiam tempora maiores aspernatur. Saepe quasi illo voluptatibus ducimus, quis cupiditate laboriosam autem debitis voluptates labore beatae sapiente, rerum quia at, magnam libero accusantium omnis consequuntur quos voluptas facilis quo pariatur! Aut esse suscipit harum optio voluptate, magni aliquid consequatur cum modi, incidunt consequuntur repellendus deserunt nisi quam maxime aperiam eveniet rerum. Soluta aspernatur nemo nam architecto?</p>
+            </table>
+            </td>
+          </tr>
+          <!-- end of shampoo deals row -->
+
+          <table class="shampoo-deals" width="100%" style="background-color: rgb(217, 204, 197)" align="center">
+                      <tr>
+                        <td class="any-day" width="100%">
+                          <td style="background-color: rgb(167, 207, 242)">
+                          <img src="/img/any-day-shampoo.jpg" alt="shampoo trio 1" width="244px" height="201px" style="padding: 10px;">
+                      
+                          <img src="/img/blue-bottle.jpg" alt="shampoo trio 2" width="190px" height="201px" style="padding: 10px;">
+                        </td>
+                        </td>
+                      </tr>
+                    </table>

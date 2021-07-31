@@ -1,0 +1,698 @@
+<!-- TODO: finish tablet sized media queries -->
+<!-- TODO: Tablet mode: add padding to top of coupon banner -->
+<!-- TODO: Apple Cider section: make photo smaller and push shop now button upward -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <style>
+
+/* Desktop */
+
+@media only screen and (min-width: 960px) {
+      .container {
+          width: 960px;
+      }  
+
+
+    }
+
+    /* Mid sizes */
+
+    @media only screen and (max-width: 770px) {
+      .container{
+          width: 100%;
+      }     
+
+    td.shampoo-pricing, .shampoo-price-text, .price {
+      padding-left: 55px !important;
+    }
+
+    .pamper-yourself-table {
+      border-bottom: none !important;
+    }
+
+    h3.pys-right {
+      text-align: left !important;
+      display: inline;
+      margin-right: 15px;
+    }
+
+    h3.pys-right-row {
+      text-align: left !important;
+      display: inline;
+      margin-right: 18.5%;
+    }
+
+    td.pys-right {
+      text-align: center;
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: inline-block;
+    }
+
+    h3.pys-weekly {
+      margin-right: 20px;
+      display: inline;
+
+    }
+
+    td.pys-weekly {
+      text-align: center;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: inline-block;
+    }
+
+    p.pys-section {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+    }
+
+    .pys-last {
+      padding-top: 15px !important;
+    }
+
+    td.pys-last > h3 {
+      display: table;
+      text-align: left;
+      margin: 20px 30% 0 0;
+    }
+
+    #self-care-header {
+      text-align: center;
+    }
+
+    .self-care-section {
+      border: none !important;
+    }
+
+    .advance-table {
+      padding-bottom: 20px !important;
+    }
+
+    }
+
+    /* Mobile */
+
+      @media only screen and (max-width: 600px) {
+      
+      .container {
+          width: 100%;
+        }  
+
+      .header {
+        text-align: center;
+      }
+      .left-header { 
+          width: 100%;
+        } 
+
+      .right-header {
+        width: 50%;  
+        margin: 0 auto;   
+      }
+      .right-menu {
+        width: 100%;     
+      }    
+
+      .carousel {
+      width: 100%; 
+      }
+
+     .left-image {
+      max-width: 100%;
+      padding: 0;
+      margin-top: 40px;
+      display: block;
+    }
+
+    .left-image img{
+      margin-left: 15%;
+    }
+
+    .right-image {
+      width: 100%;
+      display: table;
+      padding-left: 15%;
+      margin: 20px 0 10px 0px;
+    }
+
+    .skincare-coupon img{
+      width: 50%;
+      /* height: */
+    }
+
+    .coupon-click{
+      display: none;
+    }
+
+    .left-shampoo-column {
+      width: 100%;
+    }
+
+    td.shampoo-pricing{
+      padding-left: 10px;
+      display: block;
+      margin-left: 25px;
+    }
+
+    .shampoo-price-heading{
+      margin-left: 85px
+    }
+
+    .shampoo-price-text{
+      display: table;
+      margin-left: 25px;
+    }
+
+    .price {
+      display: inline-block;
+      margin-left: 25px;
+    }
+
+    .advance-table {
+      padding-bottom: 20px !important;
+    }
+
+    .right-shampoo-column {
+      width: 100%;
+    }
+
+    .acv-section {
+      width: 100%;
+      display: table;
+    }
+
+    .acv-section-text {
+      width: 100%;
+      display: table;
+    }
+
+    .acv-section-text p{
+      width: 90%;
+      padding: 0 !important;
+    }
+
+    .acv-section-button{
+      width: 75%;
+      display: block !important;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .citizens-product {
+      width: 100%;
+      display: table;
+    }
+
+    .pys-right {
+      width: 100%;
+    }
+
+    h3.pys-right{
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    }
+
+    p.pys-right {
+      width: 100%;
+      text-align: center;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .pys-weekly {
+      padding-bottom: 0;
+      width: 100%;
+      text-align: center;
+
+    }
+
+    h3.pys-weekly {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+
+    }
+
+    p.pys-weekly {
+      width: 100%;
+      text-align: center;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .pys-image {
+      margin: 0 10px 30px auto;
+      padding-top: 20px !important;
+      display: block;
+    }
+
+    p.pys-last {
+      padding: 25px 0 15px 0 !important;
+    }
+
+    .pys-last {
+      padding: 25px 0 15px 0 !important;
+    }
+
+    #self-care-header {
+      text-align: center;
+    }
+
+    .footer-copy {
+      margin-top: 45px;
+      position: absolute;
+      left: 10px;
+    }
+
+  }
+    </style>
+
+  </head>
+  <body style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center">
+          <!-- start container table -->
+         <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td>
+              <!-- start left header column -->
+              <table class="left-header" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background-color: #fff;">
+                <tr>
+                  <td class="header" style="font-weight: 600; font-size: 24px; margin: 0;">
+                    <h1 style="margin: 0; padding: 5px;">Starlyn Styles</h1>
+                  </td>
+                </tr>
+              </table>
+              <!-- end left header column -->  
+              <!-- start right header column -->
+              <table class="right-header" border="0" cellspacing="0" cellpadding="0" class="rightheader" width="50%">
+                <tr>
+                  <td style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, 'Lucida Grande', sans-serif; font-size: 18px; font-weight: 400;">
+                    <table class="right-menu" border="0" cellspacing="0" cellpadding="0" class="rightheader" width="100%" align="right" style="background: #fff; padding: 18px 0 27.5px;">
+                        <tr>
+                          <td align="center">
+                        
+                            <a href="#" style="text-decoration: none; color: #000;"><h5>Hair Care</h5></a>
+                          </td>
+                          <td align="center"> 
+                        <a href="#" style="text-decoration: none; color: #000;"><h5>Skincare</h5></a>
+                      </td>
+                      <td align="center">
+                        <a href="#" style="text-decoration: none; color: #000;"><h5>Bath & Body</h5></a>
+                          </td>
+                        </tr>
+                    </table>
+                  </td>
+                </tr>
+
+              </table>
+              <!-- end right header column -->
+              </td>
+              </tr>
+              <!-- start of carousel row -->
+              <tr>
+                <td style="background-color: rgb(217, 204, 197);"> 
+                  <table class="carousel" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 10px 5px 10px"> 
+                    <tr>
+                      <td class="left-image" >
+                        <img src="img/braids2.jpg" alt="woman with box braids and braid jewelry">
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="right-image" width="50%" align="right" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 10px 5px 10px"> 
+                    <tr>
+                      <td class="right-image">
+                        <img src="img/red-mahogany-highlights.jpg" alt="back of womans head auburn wavy style">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- end of carousel row -->
+               <!-- start banner row -->
+              <tr>
+                <td>
+                  <table class="skincare-coupon" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px; background-color: rgb(217, 204, 197)">
+                   <!-- TODO: resize the banner so it can be visible at smaller screen sizes -->
+                    <tr>
+                      <td align="center" width="500px">
+                        <img src="img/banner.jpg" alt="haircare banner ad coupon" class="coupon-click">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+                <!-- end banner row -->
+                <!-- start shampoo deals row -->
+                <tr>
+                  <td>
+                    <!-- start left shampoo column -->
+                    <table class="left-shampoo-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background-color: rgb(217, 204, 197);">  
+                      <tr>
+                        <!-- <table class="haircare-pricing"> -->
+                          <td align="center" style="background-color: rgb(167, 207, 242); padding: 25px 0 0 0;">
+                            <img src="img/any-day-shampoo2.jpg" alt="apple watch screen">
+                            <tr>
+                        
+                              <td class="shampoo-pricing" align="left" style="background-color: rgb(167, 207, 242); padding: 0px 0 0 110px;">
+                              <h5 class="shampoo-price-heading" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #fff; background-color: #000; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0; display: table;">Haircare</h5>
+                              </td>
+                          </tr>
+                          </td>
+                        <!-- </table> -->
+                      </tr>
+                      <tr>
+                          <td class="shampoo-price-text" align="left" style="padding: 0 0 0 110px;">
+                          <p style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #000; background-color: #fff;font-weight: 600; line-height: 1.8; font-size: 16px; padding: 0; margin: 0; display: inline;">Any Day Shampoo Trio</p>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td align="left"> 
+                          <table border="0" cellspacing="0" cellpadding="0">
+                        <td class="price" align="left" width="33.33%" style="padding: 0 0px 0 110px;">
+                          <p style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(140, 83, 50); font-weight: 600; font-size: 14px;"><del style="font-weight:600">$25.00</del></p>
+                          </td>
+
+                        <td align="center" width="33.33%">
+                          <p  style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #333; font-weight: 600; font-size: 14px;">$15.00</p>
+                          </td>
+
+                          <td align="left" width="33.33%" style="padding: 0 0px 0 25px;">
+                          <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(167, 207, 242); background-color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; border: 1px solid #000; padding: 5px; margin: 0">60% OFF</a>
+                          </td>
+                        </table>
+                        </td>
+                      </tr>
+                  </table>
+                  <!-- end left shampoo column -->
+                  <!-- start right shampoo column -->
+
+                  <table class="right-shampoo-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background-color: rgb(217, 204, 197);">  
+                    <tr>
+                        <td align="center" style="background-color: rgb(167, 207, 242); padding: 25px 0 12px 0;">
+                          <img src="img/cedar_trio.jpg" alt="apple watch screen">
+                          <tr>
+
+                            <td class="shampoo-pricing" align="left" style="background-color: rgb(167, 207, 242); padding: 0px 0 0 110px;">
+                            <h5 class="shampoo-price-heading" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #fff; background-color: #000; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0; display: table;">Haircare</h5>
+                            </td>
+                        </tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="shampoo-price-text" align="left" style="padding: 0 0 0 110px;">
+                        <p style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #000; background-color: #fff;font-weight: 600; line-height: 1.8; font-size: 16px; padding: 0; margin: 0; display: inline;">Cedar Refresh Trio for Men</p>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td align="left"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                      <td class="price" align="left" width="33.33%" style="padding: 0 0px 0 110px;">
+                        <p  style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(140, 83, 50); font-weight: 600; font-size: 14px;"><del style="font-weight:600">$25.00</del></p>
+                        </td>
+
+                      <td align="center" width="33.33%">
+                        <p style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #333; font-weight: 600; font-size: 14px;">$15.00</p>
+                        </td>
+
+                        <td align="left" width="33.33%" style="padding: 0 0px 0 25px;">
+                        <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(167, 207, 242); background-color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; border: 1px solid #000; padding: 5px; margin: 0">60% OFF</a>
+                        </td>
+                      </table>
+                      </td>
+                    </tr>
+                </table>
+                  <!-- end right shampoo column -->
+                  </td>
+                </tr>
+                <!-- end shampoo deals row -->
+                <!-- start self care month row -->
+                <tr>
+                  <td style="background-color: rgb(217, 204, 197);">
+                    <table class="advance-table" width="50%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px; background: #fff;">
+                      <tr>
+
+                       <tr>
+                         <td>
+                          <img src="img/tonic-bottle.png" alt="two shampoo bottles" width="500px" height="350px">
+                         </td>
+                       </tr>
+                        
+                          <td class="self-care-section" align="center" width="100%" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #333333; padding: 50px 0 50px 0; font-weight: 300; font-size: 24px; border: 1px solid #000;">
+
+                              <h2 id="self-care-header" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(0, 0, 2); background-color: #fff; text-decoration: none; font-weight: 600; font-size: 18px;  padding: 5px; margin: 0" align="left">Self-care month</h2>
+                              
+                              <p style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: #333333; padding: 0 0 0 10px; margin: 0; font-weight: 300; font-size: 14px;" align="left"> 
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores vel laboriosam, laudantium, tempore atque ducimus quos esse ipsam, at fugit similique distinctio! Sequi 
+                              </p>
+                                
+                              <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(99, 130, 191); background-color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; border: 1px solid #000; padding: 10px; margin: 20px 20px 0 40px; display: table;" align="center" width="150px">Learn More</a>
+                              
+                          </td>
+                      </tr>
+                      </table>
+                  </td>
+                </tr>
+                <!-- end self care month row -->
+                <!-- start starlyn styles row -->
+                <tr>
+                  <td width="100%">
+                    <table class="styles-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0; background-color: rgb(99, 130, 191);">
+                      <tr>
+                        <td width="100%">
+                          <h4 style="font-weight: 600; color: #fff; text-transform: uppercase; font-size: 28px; padding: 15px 0 5px; margin: 0;" align="center">Starlyn Styles</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-weight: 300; color: #fff; padding: 15px;" align="center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore velit autem alias, fugiat fugit voluptates sequi nesciunt eum voluptatibus voluptate tempore, vitae aliquam qui. Iusto dolorem iste magni repellendus. Possimus, praesentium voluptatum ut alias sapiente beatae tenetur iste magnam.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <img src="img/heads2.jpg" alt="6 hairstyles 3 columns 2 rows" align="center" style="margin-bottom: 40px">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="30%" align="center" valign="middle">
+                          <table width="100%" align="center" valign="middle">
+                          <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(99, 130, 191); background-color: #fff; text-decoration: none; text-transform: uppercase; font-weight: 600; font-size: 18px; border: 1px solid #000; padding: 20px 15px; margin: 50px 20px 0 40px;" align="center" width="150px">View All</a>
+                        </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- end starlyn styles row -->
+                <!-- start pamper yourself row -->
+                <tr>
+                  <td>
+                    <table class="pamper-yourself-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0; background-color: rgb(217, 204, 197); border-bottom: 1px solid #000; ">
+                    
+                    <tr>
+                      <td>
+                        <table class="pamper-header" width="50%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0; background-color: rgb(255, 255, 255); border: 1px solid #000;">    
+                          <td>
+                            <h5 style="font-weight: 600; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 24px; padding: 15px 0 5px; margin: 0;" align="center">
+                              Pamper Yourself
+                            </h5>
+                            <p class="pys-section" align="center" style="font-weight: 300; color: rgb(0, 0, 0); font-size: 16px; padding: 15px 0 5px; margin: 0;" align="center">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident explicabo saepe nobis architecto officia nesciunt praesentium consequuntur animi dolorum eius.
+                            </p>
+                          </td>                     
+                        </table>
+                      </td>
+                    </tr>
+                    </table>
+
+                  </td>
+                </tr>
+                <!-- end pamper yourself row -->
+
+              <!-- start of pamper yourself products row-->
+              <tr>
+                <td style="background-color:rgb(217, 204, 197)">
+                  <table class="citizens-product" align="left" style="background-color:rgb(217, 204, 197)">
+                      <td style="padding: 0 20px 0 25px; margin: 0 15px 0 15px; background-color: #fff; display: block" align="center">
+                        <img src="img/citizens-shampoo.jpg" alt="citizens shampoo" width="261px" height="267px">
+                      </td>
+                  </table>
+                    <table>
+                      <tr>
+                        <td class="pys-right" align="right" width="50%" style="padding: 25px 20px 0 25px; margin: 30px 15px 0 30px;  background-color: rgb(217, 204, 197);">
+                          <h3 class="pys-right" style="background-color: rgb(255, 255, 255);">Citizens Holistic Revitalizing Shampoo</h3>
+                          <p  class="pys-right" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; background-color: #fff; color: #000000; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 20px 0 15px 0; margin: 25px 20px; display: table; ">Try this invigorating, cleansing and protecting shampoo from Citizens. It cleanses and refeshes your scalp and hair and makes you feel like a brand new person. On sale now, buy one, get one, so stock up!</p>
+                          </td>
+                          </tr>
+                    </table>
+                  </td>
+                  </tr>
+              <tr>
+                <td style="background-color:rgb(217, 204, 197)">
+                  <table width="50%" class="pys-weekly" align="left" style="background-color:rgb(217, 204, 197)">
+                      <td style="background-color: rgb(217, 204, 197); padding: 30px 0 30px 0; display: block;" align="center">
+                        <h3 class="pys-weekly" style="background-color: rgb(255, 255, 255);">Rachel John Weekly Dry Shampoo</h3>
+                        <p class="pys-weekly" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; background-color: #fff; color: #000000; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 35px 0 15px 0; margin: 35px 20px; display: table;">Try this invigorating, cleansing and protecting shampoo from Citizens. It cleanses and refeshes your scalp and hair and makes you feel like a brand new person. On sale now, buy one, get one, so stock up!</p>                       
+                      </td>
+                  </table>
+                    <table class="citizens-product">
+                      <tr>
+                        <td class="pys-weekly" align="left" width="50%" style="padding: 0 20px 0 25px; margin: 0 15px 0 15px;  background-color: rgb(217, 204, 197);">
+
+                          <img src="img/rachel-john.jpg" alt="citizens shampoo" width="261px" height="267px">
+                          </td>
+                          </tr>
+                    </table>
+                  </td>
+                  </tr>
+                <tr>
+                  <td style="background-color:rgb(217, 204, 197)">
+                    <table class="citizens-product" align="left" style="background-color:rgb(217, 204, 197)">
+                        <td style="padding: 0 20px 0 25px; margin: 0 15px 0 15px; background-color: rgb(217, 204, 197); display: block" align="center">
+                          <img src="img/shampoo-periodic.jpg" alt="citizens shampoo" width="261px" height="267px">
+                        </td>
+                    </table>
+                      <table style="background-color: rgb(217, 204, 197);">
+                        <tr>
+                          <td align="right" width="50%" style="padding: 20px 20px 0 25px; margin: 0 15px 0 15px;  background-color:rgb(217, 204, 197)">
+                            <h3 class="pys-right-row" align="center" style="background-color: rgb(255, 255, 255);">Periodic&copy; Clarifying Shampoo</h3>
+                            <p class="pys-weekly" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; background-color: #fff; color: #000000; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 20px 0 15px 0; margin: 25px 20px; display: table;">Try this invigorating, cleansing and protecting shampoo from Citizens. It cleanses and refeshes your scalp and hair and makes you feel like a brand new person. On sale now, buy one, get one, so stock up!</p>
+                            </td>
+                            </tr>
+                      </table>
+                    </td>
+                    </tr>
+                <tr>
+                  <td style="background-color:rgb(217, 204, 197)">
+                    <table width="50%" class="citizens-product" align="left" style="background-color:rgb(217, 204, 197)">
+                      <td class="pys-last" style="background-color: rgb(217, 204, 197); padding: 30px 0 30px 0; display: block;" align="center">
+                        <h3 align="center" style="background-color: rgb(255, 255, 255);">Viv Labs&copy; Haircare Set</h3>
+                        <p class="pys-last" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; background-color: #fff; color: #000000; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 35px 0 15px 0; margin: 35px 20px; display: table;">Try this invigorating, cleansing and protecting shampoo from Citizens. It cleanses and refeshes your scalp and hair and makes you feel like a brand new person. On sale now, buy one, get one, so stock up!</p>                       
+                      </td>
+                  </table>
+                    <table style="background-color: rgb(217, 204, 197)">
+                      <tr>
+                        <td class="pys-image" align="left" width="50%" style="padding: 35px 25px 3.5px 35px; margin: 10px 0 15px 0 15px;  background-color: rgb(217, 204, 197);">
+
+                          <img src="img/viv-products.jpg" alt="viv shampoo conditioner trio" width="261px" height="267px">
+                          </td>
+                          </tr>
+                    </table>
+                    </td>
+                    </tr>
+              <!-- end of pamper yourself products row -->
+              <!-- start of apple cider cleanse column-->
+              <tr>
+                <td>
+                  <table style="padding: 25px 0 25px 25px;">
+                    <tr>
+                      <td width="66%" class="acv-section"> 
+                        <img src="img/acv.jpg" alt="apple cider cleanse products" align="left">
+                      </td>
+                      <td class="acv-section-text" width="33.33%">
+                        <h3 align="center" style="font-weight: 700;">NEW!</h3>
+                        <p align="left" style="margin: 0; font-weight: 400; line-height: 1.5; padding: 0 0 0 20px;">
+                           Starlyn now offers our loc'd clients the highly sought after APPLE CIDER CLEANSE! Remove years or decades of buildup and dirt from your beloved locs. Follow up with an interlock and retwist Be sure to schedule your appointment for this revolutionary pampering today!
+                          <br>
+                          <br>
+                          <a class="acv-section-button" href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(99, 130, 191); background-color: #fff; text-decoration: none; text-transform: uppercase; font-weight: 600; font-size: 18px; border: 1px solid #000; padding: 10px 15px; margin: 0 0px 0 40px; display: inline;" align="right" width="150px">Shop Now</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- end of apple cider cleanse column-->
+
+              <!-- start of special offer column-->
+
+                <tr>
+                  <td>
+                    <table class="special-offer-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0; background-color: rgb(99, 130, 191); border: 1px solid #000;">
+                    
+                    <tr>
+                      <td>
+                        <table class="special-offer-header" width="50%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0 50px 0; background-color: rgb(255, 255, 255); border: 1px solid #000;">    
+                          <td style="padding: 20px 0 50px 0;">
+                            <h5 style="font-weight: 600; color: rgb(178, 33, 75); text-transform: uppercase; font-size: 28px; padding: 15px 0 5px; margin: 0;" align="center">
+                              Special Offer!
+                            </h5>
+                            <p align="center">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident explicabo saepe nobis architecto officia nesciunt praesentium consequuntur animi dolorum eius.
+                            </p>
+                          </td>  
+                          <tr>
+                            <td align="center">
+                              <a href="#" style="font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif'; color: rgb(99, 130, 191); background-color: #fff; text-decoration: none; text-transform: uppercase; font-weight: 600; font-size: 18px; border: 1px solid #000; padding: 30px 15px; margin: 30px 15px ;" align="center"  width="150px">Shop Now</a>
+                            </td>
+                          </tr>                   
+                        </table>
+                      </td>
+                    </tr>
+                    </table>
+
+                  </td>
+                </tr>
+
+              <!-- end of special offer column-->
+
+
+
+        </table>
+         <!-- end container table -->
+
+                       <!-- start of footer-->
+
+                       <tr>
+                        <td width="100%" style="background-color: rgb(255, 255, 255); padding: 40px 0; margin: 5px; border-top: rgb(99, 130, 191) 1px solid;" align="left">
+                          <table>
+                            <tr>
+                              <td align="left" width="33.33%" style="padding: 40px 0; margin: 5px">
+                                <h3 style="font-size: 28px; display: inline; color:rgb(99, 130, 191)">Starlyn Styles</h3>
+                                <span class="footer-copy" style="color: rgb(167, 207, 242);">&copy;&nbsp;&nbsp;2021 All Rights Reserved.</span>
+                              
+                              </td>
+                              <td>
+                                
+                              </td>
+                          
+                            <td align="center" width="33.33%" style="font-size: 28px; color: rgb(167, 207, 242);">
+                              <i class="fab fa-facebook-square"></i>
+                              <i class="fab fa-twitter-square"></i>
+                              <i class="fab fa-pinterest-square"></i>
+                            </td>
+                            <td align="right" width="33.33%" style="font-size: 28px; color: rgb(167, 207, 242);">
+                              <i class="fab fa-cc-mastercard"></i>
+                              <i class="fab fa-cc-visa"></i>
+                              <i class="fab fa-cc-stripe"></i>
+                            </td>
+                          </tr>
+                          </table>
+                        </td>
+                      </tr>
+        
+                      <!-- end of footer -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
